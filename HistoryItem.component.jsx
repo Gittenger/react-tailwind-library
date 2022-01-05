@@ -9,9 +9,9 @@ const HistoryItem = ({ linkTo = '/' }) => {
     svg: { History, Star, XIcon },
   } = images
   const wrapperStyles =
-    'rounded-lg  p-6 flex items-center bg-gray-100 group-hover:bg-green-400 transition-colors'
+    'rounded-lg  p-6 flex items-center bg-gray-100 group-hover:bg-green-400 transition-colors w-64 md:w-96'
   const linkStyles = 'group'
-  const svgStyles = 'fill-current text-gray-800 w-6 h-6'
+  const svgStyles = 'fill-current text-gray-800 w-5 h-5 md:w-6 md:h-6'
 
   const groupOne = 'flex space-x-3 items-center mr-auto'
   const groupTwo = 'flex space-x-1 items-center'
